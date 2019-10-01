@@ -7,6 +7,10 @@ export class PrivateKey {
     return new PrivateKey(privateKey);
   }
 
+  public static fromPemString(pemString: string) {
+    return new PrivateKey(plugins.nodeForge.pki.privateKeyFromPem(pemString));
+  }
+
   // INSTANCE
   public forgePrivateKey: plugins.nodeForge.pki.PrivateKey;
 
