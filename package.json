@@ -1,0 +1,24 @@
+{
+  "name": "@pushrocks/smartcrypto",
+  "version": "1.0.1",
+  "private": false,
+  "description": "easy crypto methods",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "scripts": {
+    "test": "(tstest test/)",
+    "build": "(tsbuild)",
+    "format": "(gitzone format)"
+  },
+  "devDependencies": {
+    "@gitzone/tsbuild": "^2.1.17",
+    "@gitzone/tstest": "^1.0.24",
+    "@pushrocks/tapbundle": "^3.0.13",
+    "@types/node": "^12.7.8",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "dependencies": {}
+}
