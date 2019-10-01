@@ -7,11 +7,10 @@ export class PublicKey {
     return new PublicKey(privateKey);
   }
 
-
   // INSTANCE
   public forgePublicKey: plugins.nodeForge.pki.PublicKey;
 
-  constructor (publicKeyArg: plugins.nodeForge.pki.PublicKey) {
+  constructor(publicKeyArg: plugins.nodeForge.pki.PublicKey) {
     this.forgePublicKey = publicKeyArg;
   }
 
