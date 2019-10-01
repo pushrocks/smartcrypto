@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/smartcrypto",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "easy crypto methods",
   "main": "dist/index.js",
