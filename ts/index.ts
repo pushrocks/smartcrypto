@@ -5,6 +5,4 @@ export * from './smartcrypto.classes.publickey';
 
 import { nodeForge } from './smartcrypto.plugins';
 
-export {
-  nodeForge
-};
+export { nodeForge };

@@ -16,7 +16,7 @@ export class KeyPair {
       done.resolve(
         new KeyPair({
           privateKey: new PrivateKey(keypair.privateKey),
-          publicKey: new PublicKey(keypair.publicKey)
+          publicKey: new PublicKey(keypair.publicKey),
         })
       );
     });
